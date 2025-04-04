@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(./Assets/img/pexels-codioful-7135007.jpg);
+}
+
+
+.container-principal {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: gray;
+    opacity: 0.7;
+    color: beige;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 30px;
+
+}
+.titulo {
+    text-align: center;
+    color: aquamarine;
+    font-size: 45px;
+}
+
+#cep {
+    margin-top: 10px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+#enviar {
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: aquamarine;
+    
+}
+
+.text {
+    margin: 20px;
+    text-align: left;
+}
+
+h2 {
+    width: 100%;
+}
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam:wght@400..700&display=swap" rel="stylesheet">
+    <title>busca cep</title>
+</head>
+<body>
+   <div class="container-principal"> 
+   <h2 class="titulo">Perquisa cep</h2>
+   <input id="cep" type="text" placeholder="Digite o cep:"> 
+   <h2 class="text" id="endereco">Endereço:</h2>
+   <h2 class="text" id= "bairro">Bairro:</h2>
+   <h2 class="text" id="cidade">Cidade:</h2>
+   <h2 class="text" id="estado">Estado:</h2>
+   <h2 class="text" id="regiao">Região:</h2>
+   <input onclick="ColetarCep()" type="button" value="Pesquisar" id="enviar">
+   </div>
+<script src="main.js"></script>    
+</body>
+</html>
